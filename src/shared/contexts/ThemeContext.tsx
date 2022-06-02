@@ -6,6 +6,9 @@ import { Box } from "@mui/material";
 interface IThemeContextData {
     themeName: 'light' | 'dark';
     toggleTheme: () => void;
+}
+
+interface IThemeContextProps {
     children?: React.ReactNode;
 }
 
@@ -15,7 +18,7 @@ export const useAppThemeContext = () => {
     return useContext(ThemeContext)
 }
 
-export const AppThemeProvider: React.FC<IThemeContextData> = ({ children }) => {
+export const AppThemeProvider: React.FC<IThemeContextProps> = ({ children }) => {
     const [themeName, setThemeName] = useState<'light' | 'dark'>('light')
 
     const toggleTheme = useCallback(() => {

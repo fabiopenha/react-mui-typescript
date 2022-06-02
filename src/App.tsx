@@ -5,7 +5,7 @@ import { AppRoutes } from "./routes";
 
 export const App = () => {
   return (
-    <AppThemeProvider themeName={"light"} toggleTheme={function (): void {}}>
+    <AppThemeProvider>
       <BrowserRouter>
         <AppRoutes />
       </BrowserRouter>
