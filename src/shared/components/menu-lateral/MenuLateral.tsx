@@ -87,7 +87,7 @@ export const MenuLateral: React.FC<IMenuLateralProp> = ({ children }) => {
             <List component="nav">
               <ListItemButton onClick={toggleTheme}>
                 <ListItemIcon>
-                  <Icon>{ themeName === 'light' ? 'light_mode' : 'dark_mode'}</Icon>
+                  <Icon>{ themeName === 'light' ? 'dark_mode' : 'light_mode'}</Icon>
                 </ListItemIcon>
                 <ListItemText primary="Alternar tema" />
               </ListItemButton>
