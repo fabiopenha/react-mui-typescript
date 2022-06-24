@@ -88,10 +88,10 @@ export const FerramentasDeDetalhe: React.FC<IFerramentasDeDetalheProps> = ({
 
       {mostrarBotaoSalvarCarregando && <Skeleton width={110} height={60} />}
 
-      {mostrarBotaoSalvarEFechar &&
+      {(mostrarBotaoSalvarEFechar &&
         !mostrarBotaoSalvarEFecharCarregando &&
         !smDown &&
-        !mdDown && (
+        !mdDown) && (
         <Button
           variant="outlined"
           color="primary"
@@ -110,7 +110,7 @@ export const FerramentasDeDetalhe: React.FC<IFerramentasDeDetalheProps> = ({
         </Button>
       )}
 
-      {mostrarBotaoSalvarEFecharCarregando && !smDown && !mdDown && (
+      {(mostrarBotaoSalvarEFecharCarregando && !smDown && !mdDown) && (
         <Skeleton width={180} height={60} />
       )}
 

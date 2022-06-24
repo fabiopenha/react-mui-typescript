@@ -65,6 +65,12 @@
       "email": "Carlos@teste.com",
       "cidadeId": 1,
       "nomeCompleto": "Carlos Manoel"
+    },
+    {
+      "id": 16,
+      "nomeCompleto": "Damon Salvatore",
+      "email": "damon@salvatore.com",
+      "cidadeId": "7"
     }
   ]
 }
