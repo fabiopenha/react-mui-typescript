@@ -8,9 +8,9 @@
     },
     {
       "id": 6,
+      "nomeCompleto": "Carmem Miranda",
       "email": "Carmem@teste.com",
-      "cidadeId": 1,
-      "nomeCompleto": "Carmem Miranda"
+      "cidadeId": 1
     },
     {
       "id": 7,
