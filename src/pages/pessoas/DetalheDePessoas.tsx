@@ -37,6 +37,12 @@ export const DetalheDePessoas: React.FC = () => {
           formRef.current?.setData(result);
         }
       });
+    } else {
+      formRef.current?.setData({
+        nomeCompleto: '',  
+        email: '',  
+        cidadeId: '',  
+      });
     }
   }, [id]);
 

@@ -71,6 +71,18 @@
       "nomeCompleto": "Damon Salvatore",
       "email": "damon@salvatore.com",
       "cidadeId": "7"
+    },
+    {
+      "nomeCompleto": "Severino Wight",
+      "email": "severino@gmail.com",
+      "cidadeId": "2",
+      "id": 17
+    },
+    {
+      "nomeCompleto": "Joe Jonas",
+      "email": "joe@jb.com",
+      "cidadeId": "3",
+      "id": 18
     }
   ]
 }
