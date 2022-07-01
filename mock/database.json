@@ -14,7 +14,7 @@
     },
     {
       "id": 7,
-      "nomeCompleto": "",
+      "nomeCompleto": "Pedro Pereira",
       "email": "Pedro@teste.com",
       "cidadeId": 1
     },
@@ -95,6 +95,32 @@
       "nomeCompleto": "Kevin",
       "email": "kevin@gmail.com",
       "cidadeId": "5"
+    }
+  ],
+  "cidades": [
+    {
+      "nome": "Belford Roxo",
+      "id": 1
+    },
+    {
+      "nome": "Nova Iguaçu",
+      "id": 2
+    },
+    {
+      "nome": "Niterói",
+      "id": 3
+    },
+    {
+      "nome": "São Gonçalo",
+      "id": 4
+    },
+    {
+      "nome": "Rio de Janeiro",
+      "id": 5
+    },
+    {
+      "nome": "Cabo Frio",
+      "id": 6
     }
   ]
 }
