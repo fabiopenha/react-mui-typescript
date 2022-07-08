@@ -16,7 +16,7 @@
       "id": 7,
       "nomeCompleto": "Pedro Pereira",
       "email": "Pedro@teste.com",
-      "cidadeId": 1
+      "cidadeId": 6
     },
     {
       "id": 8,
@@ -95,6 +95,12 @@
       "nomeCompleto": "Kevin",
       "email": "kevin@gmail.com",
       "cidadeId": "5"
+    },
+    {
+      "nomeCompleto": "Arrascaeta",
+      "email": "arrascaeta@gmail.com",
+      "cidadeId": 5,
+      "id": 21
     }
   ],
   "cidades": [
