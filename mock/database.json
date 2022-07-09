@@ -113,8 +113,8 @@
       "id": 2
     },
     {
-      "nome": "Niterói",
-      "id": 3
+      "id": 3,
+      "nome": "Tinguá"
     },
     {
       "nome": "São Gonçalo",
@@ -128,5 +128,8 @@
       "nome": "Cabo Frio",
       "id": 6
     }
-  ]
+  ],
+  "auth": {
+    "accessToken": "aaaaaaaaaaaa.bbbbbbbbbbbbbbbbb.ccccccccccc"
+  }
 }

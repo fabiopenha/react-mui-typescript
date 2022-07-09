@@ -1,7 +1,7 @@
 import { Avatar, Divider, Drawer, Icon, List, ListItemIcon, ListItemButton, ListItemText, useMediaQuery, useTheme } from '@mui/material';
 import { Box } from '@mui/system';
 import { useMatch, useNavigate, useResolvedPath } from 'react-router-dom';
-import { useAppDrawerContext, useAppThemeContext } from '../../contexts';
+import { useAppDrawerContext, useAppThemeContext, useAuthContext } from '../../contexts';
 
 interface IMenuLateralProp {
   children?: React.ReactNode;
@@ -42,6 +42,7 @@ export const MenuLateral: React.FC<IMenuLateralProp> = ({ children }) => {
 
   const { isDrawerOpen, toggleDrawerOpen, drawerOptions } = useAppDrawerContext();
   const { toggleTheme, themeName } = useAppThemeContext();
+  const { logout } = useAuthContext();
   return (
     <>
       <Drawer
@@ -90,6 +91,12 @@ export const MenuLateral: React.FC<IMenuLateralProp> = ({ children }) => {
                   <Icon>{ themeName === 'light' ? 'dark_mode' : 'light_mode'}</Icon>
                 </ListItemIcon>
                 <ListItemText primary="Alternar tema" />
+              </ListItemButton>
+              <ListItemButton onClick={logout}>
+                <ListItemIcon>
+                  <Icon>logout</Icon>
+                </ListItemIcon>
+                <ListItemText primary="Sair" />
               </ListItemButton>
             </List>
           </Box>
